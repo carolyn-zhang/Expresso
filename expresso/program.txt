@@ -1,0 +1,117 @@
+{
+
+System.out.println("hello" + true)
+
+//WHILE LOOP counts down from 3 to 1
+
+countdown = 3
+
+while(countdown > 0)
+  {
+   System.out.println("while loop counting down:" + countdown)
+   countdown = countdown - 1
+  }
+
+
+
+
+//IF, ELSEIFs, ELSE
+
+x = 2
+
+if(x < 0)
+  {
+   System.out.println("x < 0")
+  }
+elseif(x == 0)
+  {
+   System.out.println("x == 0")
+  }
+elseif(x > 10)
+  {
+   System.out.println("x > 10")
+  }
+elseif(x == 2)
+  {
+   System.out.println("x == 2") // <-- prints this bc x is assigned the value of 2
+  }
+else
+  {
+   System.out.println(x)
+  }
+
+
+
+
+
+//FUNCTIONS
+
+//SUM FUNCTION
+function sum(x , y, z)
+  {
+   System.out.println("Sum Function:" + x + y + z)
+  }
+
+call sum(5, 3, 2) //prints out 10.0
+
+a = 3 
+b = 2 
+c = 1
+
+call sum(a, b, c)
+
+
+
+//OPPOSITE BOOLEAN VALUE FUNCTION
+function oppositeBooleanValue(booleanVal)
+  {
+  System.out.println("Opposite Boolean Value:" + ! booleanVal)
+  }
+
+call oppositeBooleanValue(true) //prints false
+
+
+
+
+
+
+
+
+
+//ARITHMETIC W/DOUBLE AND INTEGER
+
+count = -4.5 * -2		//value is 9.0
+//tests print function and string addition
+System.out.println("count value is:" + count)
+
+
+
+
+
+
+
+
+//STRING VARIABLE
+
+message = "Hello" + " " + "World"
+
+System.out.println("message:" + message)
+
+
+
+
+
+
+
+
+
+//BOOLEANS
+
+booleanA = true
+booleanB = false
+System.out.println("boolean operations:" + booleanA && booleanB)
+
+
+}
+
+
